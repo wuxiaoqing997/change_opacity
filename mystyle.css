@@ -1,0 +1,22 @@
+*{
+	padding: 0;margin: 0;
+}
+#content {
+	margin: 0 auto;
+	width: 700px;
+	height: 276px;
+	border:1px solid #000000;
+}
+#content ul li {
+	float: left;
+	list-style: none;
+	padding: 3px;
+}
+#content ul li img {
+	opacity: 0.2;
+}
+#content ul li:hover img 
+{
+	opacity: 1;
+	cursor: crosshair;
+}
